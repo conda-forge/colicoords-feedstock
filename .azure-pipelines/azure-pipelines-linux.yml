@@ -8,6 +8,8 @@ jobs:
     matrix:
       linux_python3.6:
         CONFIG: linux_python3.6
+      linux_python3.7:
+        CONFIG: linux_python3.7
   steps:
   - script: |
       sudo pip install --upgrade pip
