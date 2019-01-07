@@ -11,16 +11,16 @@ source:
 
 build:
   number: 1000
-  skip: True  # [py <36] 
+  noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
-    - python
+    - python >=36
     - pip
     - pbr >=1.9
   run:
-    - python
+    - python >=36
     - numpy
     - matplotlib >=2.2.0
     - seaborn
