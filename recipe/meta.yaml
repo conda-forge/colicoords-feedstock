@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=36
+    - python >=3.6
     - pip
     - pbr >=1.9
   run:
-    - python >=36
+    - python >=3.6
     - numpy
     - matplotlib >=2.2.0
     - seaborn
