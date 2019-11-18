@@ -1,5 +1,5 @@
 {% set name = "colicoords" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8cd73c5defcc747aaa436e6bb13c6732f130298a4f4cc9f790fe16c075980c29
+  sha256: b9d4335751929c494fbe1f6ebebd0cc8f7addda86cccad01244f1edf00de0a4d
 
 build:
   number: 0
