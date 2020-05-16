@@ -10,7 +10,7 @@ source:
   sha256: b9d4335751929c494fbe1f6ebebd0cc8f7addda86cccad01244f1edf00de0a4d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.6
     - numpy
-    - matplotlib >=2.2.0
+    - matplotlib-base >=2.2.0
     - seaborn
     - mahotas
     - multiprocess
